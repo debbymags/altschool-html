@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Media</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Back to Home</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to My World!</h1>
+      <div class="container">
+        <p>
+          Hello! My name is Deborah Magbadelo, a passionate tech enthusiast
+          aiming to transition into cloud engineering. Let me share a glimpse of
+          my journey.
+        </p>
+
+        <!-- Responsive Picture Element -->
+        <h2>My Profile</h2>
+        <picture>
+          <source
+            srcset="assets/debrapic-desktop.jpg"
+            media="(min-width: 1024px)"
+          />
+          <source
+            srcset="assets/debrapic-tablet.jpg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="assets/debrapic-mobile.jpg"
+            media="(max-width: 767px)"
+          />
+          <img src="assets/debrapic.JPEG" alt="Deborah at Rack Centre" />
+        </picture>
+
+        <!-- Video Element -->
+        <h2>My Tech Journey</h2>
+        <video controls width="80%">
+          <source src="assets/debravid.MP4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <!-- Audio Element -->
+        <h2>Listen to My Motivational Audio</h2>
+        <audio controls>
+          <source src="assets/debradio.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+    </main>
+  </body>
+</html>
