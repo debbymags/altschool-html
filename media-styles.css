@@ -1,0 +1,85 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: #0073e6;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Main Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #0073e6;
+}
+
+/* Image Styling */
+picture img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+picture img:hover {
+    transform: scale(1.05);
+}
+
+/* Video Styling */
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Audio Styling */
+audio {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}

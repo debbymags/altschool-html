@@ -1,0 +1,92 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+    color: #333;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: #0073e6;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Main Content */
+main {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #0073e6;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Section Styling */
+section {
+    text-align: left;
+    padding: 15px;
+    margin-top: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Scroll to Top Link */
+a[href="#top"] {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0073e6;
+    transition: color 0.3s ease;
+}
+
+a[href="#top"]:hover {
+    color: #ff4500;
+}
+
+/* Footer */
+footer {
+    background: #0073e6;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
